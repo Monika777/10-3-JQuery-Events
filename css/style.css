@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+#carousel {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	overflow: hidden; /*in case different sizes of photos*/
+	position: relative;
+	margin-top: 150px;
+	border: 8px solid white;
+}
+
+ul {
+	list-style: none;
+	width: 2000px;
+	height: 100%;
+	
+}
+
+li { 
+	width: 400px; 
+	height: 300px; 
+	list-style: none;
+	float: left;
+
+}
